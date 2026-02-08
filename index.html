@@ -25,6 +25,57 @@
           Voltar
         </a>
       </div>
+      <h1>Compras da semana</h1>
+      <form>
+        <fieldset class="add-itens">
+          <div class="input-wrapper">
+            <input type="text" id="item" placeholder="Adicione um novo item" />
+            <button>Adicionar item</button>
+          </div>
+        </fieldset>
+      </form>
+      <ul class="shopping-list">
+        <li>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="item1" />
+            <label for="item1">Pão de forma</label>
+          </div>
+          <button class="delete-btn">
+            <img src="assets/icons/lata.svg" alt="Deletar" />
+          </button>
+        </li>
+
+        <li>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="item2" />
+            <label for="item2">Café preto</label>
+          </div>
+          <button class="delete-btn">
+            <img src="assets/icons/lata.svg" alt="Deletar" />
+          </button>
+        </li>
+      </ul>
+      <div class="alert">
+        <img src="assets/icons/atencao.svg" alt="Atenção" />
+        <span>O item foi removido da lista</span>
+        <button class="close-alert">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 1L1 13M1 1L13 13"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
     </main>
 
     <script src="script.js"></script>
